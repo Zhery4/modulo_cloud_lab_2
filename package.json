@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://zhery4.github.io/modulo_cloud_lab_2/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
