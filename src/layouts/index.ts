@@ -1,1 +1,0 @@
-export { CenteredLayout } from './content/Centered.layout'
