@@ -1,6 +1,8 @@
 # modulo_cloud_lab_2
 Ejercicio 2 del laboratorio de Cloud
 
+Resultado -> https://zhery4.github.io/modulo_cloud_lab_2/
+
 Pasos para automatizar el despliegue
 
 1.Crear Carpeta .github/workflows
