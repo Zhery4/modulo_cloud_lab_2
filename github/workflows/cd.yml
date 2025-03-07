@@ -1,0 +1,22 @@
+name: CD Workflow Laboratorio Cloud
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  cd:
+    runs-on: ubuntu-latest
+    steps:
+        - name: Checkout repo
+          uses: actions/checkout@v4
+
+        - name: Install dependencies
+          run: npm ci
+
+        - name: Build
+          run: npm run build
+
+        - name: Deploy
+          run: npm run deploy
