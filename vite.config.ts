@@ -5,7 +5,7 @@ import * as dotenv from "dotenv";
 dotenv.config();
 
 export default defineConfig({
-  base: "./",
+  base: "/modulo_cloud_lab_2/",
   plugins: [react()],
   define: {
     "process.env.GITHUB_API_URL": JSON.stringify(process.env.GITHUB_API_URL),
